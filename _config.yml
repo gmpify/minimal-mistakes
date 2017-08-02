@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Gabriel Parreiras"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Gabriel Parreiras"
+description              : "Gabriel Parreiras' Blog"
+url                      : https://gabrielparreiras.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : gmpify/gmpify.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,25 +77,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Gabriel Parreiras"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "DevOps Engineer @ Globo.com"
+  location         : "Rio de Janeiro/BR"
+  email            : gab.parreiras@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : gmpify
   foursquare       :
-  github           :
+  github           : gmpify
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : gmpify
   lastfm           :
-  linkedin         :
+  linkedin         : gparreiras
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -175,7 +175,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Sao_Paulo
 
 
 # Plugins
